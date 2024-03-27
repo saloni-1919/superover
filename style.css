@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;900&display=swap");
+
+body {
+  text-align: center;
+  background-image: url("https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/superover-bg.png");
+  background-size: cover;
+  color: white;
+}
+
+#logo {
+  width: 100px; 
+}
+
+h1 {
+  font-size:100px;
+  font-weight:500;
+}
+* { 
+  box-sizing: border-box;
+}
+.container{
+  margin: 120px auto;
+}
+
+#buttons {
+  width:50%;
+  height: auto;
+}
+.buttonspace{
+  margin: 100px auto;
+}
+.balls{
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: white;
+  margin: 3px;
+  line-height:25px;
+  padding: 10px;
+}
+
+
+.score {
+  padding: 30px;
+  height: auto;  
+  margin: 0 50px;
+  border-radius:18px;
+}
+.button {
+  width: 100px;
+  font-size: 1.5em;
+  cursor: pointer;
+  margin: 0 30px;
+}
+#t1 {
+  margin: 18px;
+}
+#india{
+  display: inline-block;
+  background-color: #005fa2;
+}
+#pak{
+  display: inline-block;
+  background-color: #1fa83d;
+}
+#t2 {
+  margin: 18px;
+}
+.sboard {
+  font-size:50px;
+ }
